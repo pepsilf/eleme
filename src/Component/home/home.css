@@ -1,0 +1,245 @@
+.home{
+    width:100%;
+    overflow: hidden;
+}
+#wrapper{
+    position: absolute;
+    z-index: 1;
+    top:.8rem;
+    bottom: .49rem;
+    width:100%;
+    left: 0;
+    overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    touch-action: none;     
+}
+.main{
+    width:100%;
+    background: #fff;
+}
+.storeItem{
+    padding:.2rem .16rem;
+    border-bottom: 1px solid gainsboro;
+    background: #fff;
+}
+.nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom:.2rem;
+}
+.nav li{
+    width:20%;
+    flex: auto;
+    text-align: center;
+}
+.nav li img{
+    width:.45rem;
+    height:.45rem;
+    margin: 0 auto
+}
+.navs{
+    justify-content: flex-start;
+}
+.navs li{
+    flex: none;
+}
+.slider-decorator-0{
+    bottom:-.1rem!important;
+}
+.recommend{
+    width:100%;
+    text-align: center;
+    height:.3rem;
+    line-height: .3rem;
+    font-weight: bolder;
+}
+.banner{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding:.2rem 10px 0;
+}
+.banner>div{
+    width:1.7rem;
+    height:1.4rem;
+    background: linear-gradient(0deg,#f4f4f4 5%,#fafafa 95%);
+    position: relative;
+}
+.banner>div>div{
+    display:flex;
+    flex-direction: column;
+    margin-top:.1rem;
+    margin-left:.1rem
+}
+.banner>div>img{
+    position: absolute;
+    width:1.2rem;
+    height:.8rem;
+    bottom:0;
+    right:0;
+}
+.filter{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.filter li{
+    width:25%;
+    flex: auto;
+    text-align: center;
+    height:.4rem;
+    line-height: .4rem;
+    font-size: .14rem;
+    color:#666;
+}
+.goods{
+    width:100%;
+    display: flex;
+}
+.goods .logo{
+    width:.65rem;
+    height:.65rem;
+    flex:none;
+    overflow: hidden;
+}
+.goods .logo img{
+    width:100%;
+    height:100%;
+}
+.goodsInfo{
+    width:100%;
+    flex:auto;
+    margin-left:10px;
+}
+.goodsInfo .storeName{
+    font-size: .18rem;
+    height:.2rem;
+    line-height: .2rem;
+    display: flex
+}
+.goodsInfo .storeName>span{
+    flex:none;
+    width:.3rem;
+    text-align: center;
+    height:.2rem;
+    line-height: .2rem;
+    background-image: linear-gradient(-139deg,#fff100,#ffe339);
+    font-size:.12rem;
+    border-radius: .05rem;
+}
+.goodsInfo .storeName h3{
+    flex:none;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left:5px;
+    font-size:.16rem;
+}
+.goodsInfo .storeName div{
+    width:50%;
+    flex:auto;
+    text-align: right;
+    color: #999;
+}
+.goodsInfo .storeName>div>span{
+    border: .01rem solid #ddd;
+    border-radius: .05rem;
+    font-size: .12rem;
+}
+.goodsInfo .score{
+    font-size: .12rem;
+    height:.22rem;
+    line-height: .22rem;
+    display:flex;
+    color:#666
+}
+.goodsInfo .score span{
+    margin-right:5px;
+}
+.goodsInfo .score div{
+    flex:auto;
+    text-align: right;
+}
+.goodsInfo .score div span{
+    color: #fff;
+    border: .133333vw solid #0097ff;
+    background-image: linear-gradient(45deg,#0085ff,#0af);
+}
+.goodsInfo .offerPrice{
+    font-size: .12rem;
+    display: flex;
+    height:.2rem;
+    line-height: .2rem;
+    color:#666
+}
+.goodsInfo .offerPrice div:last-child{
+    flex:auto;
+    text-align: right;
+}
+.goodsInfo .offerPrice span{
+    padding:0 5px;
+}
+.goodsInfo .offerPrice span:first-child{
+    border-right: 1px solid gray;
+}
+.activity{
+    width:100%;
+    display: flex;
+    font-size: .16rem;
+    color:#666;
+    padding-left:.7rem;
+    font-size: .12rem;
+    padding-top:5px;
+}
+.activity>span{
+    flex:none;
+    margin-right: 5px;
+}
+.activity>span:nth-child(2){
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.activity .first{
+    width:.14rem;
+    height:.14rem;
+    border-radius: .05rem;
+    background-color: rgb(112, 188, 70);
+    color: #fff;
+}
+.activity div{
+    flex: auto;
+    text-align: right;
+}
+.moredel{
+    width:.14rem;
+    height:.14rem;
+    border-radius: .05rem;
+    color: #fff;
+    background-color: rgb(240, 115, 115);
+}

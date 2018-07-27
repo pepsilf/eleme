@@ -1,0 +1,49 @@
+.selectAddress{
+    padding-top:.49rem;
+    display:flex;
+    justify-content: center;
+    background: #fff;
+}
+.selectAddress .city{
+    flex:none;
+    height:.4rem;
+    line-height: .4rem;
+    width:1rem;
+    text-align: center;
+
+}
+.selectAddress .search{
+    flex:auto;
+    height:.4rem;
+    line-height: .4rem;
+}
+.selectAddress .search input{
+    width:90%;
+    background: #f2f2f2;
+    height:.3rem;
+    line-height: .3rem;
+    border: none;
+    outline: none;
+    text-indent: .2rem;
+}
+
+.adressList{
+    width:100%;
+    background: #fff;
+}
+.adressList .adressItem{
+    width:100%;
+    padding:0 .2rem;
+    border-bottom: 1px solid gainsboro;
+}
+.adressList .adressItem .adressName{
+    display:flex;
+    height:.28rem;
+    line-height: .28rem;
+    justify-content: space-between;
+}
+.adressList .adressItem .adress{
+    height:.28rem;
+    line-height: .28rem;
+    font-size: .14rem;
+}
